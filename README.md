@@ -28,5 +28,6 @@ For each issues, create a branch to achieve it.
 | 5 - Advanced tests               | 77.8%      | 7/9   | x     |
 | 6 - Parsing                      | 100%       | 15/15 | x     |
 | 7 - Rigor                        | 100%       | 2/2   | x     |
-|----------------------------------|------------|-------|-------|
 | Total                            | 84%        | x     | x     |
+
+Grade A médaille
