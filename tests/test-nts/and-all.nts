@@ -1,0 +1,17 @@
+.chipsets:
+true in_1
+true in_2
+false in_3
+false in_4
+output out
+output out2
+and gate
+and gat2
+
+.links:
+in_1:1 gate:1
+in_2:1 gate:2
+out:1 gate:3
+in_3:1 gat2:1
+in_4:1 gat2:2
+gat2:3 out2:1

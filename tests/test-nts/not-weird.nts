@@ -1,0 +1,30 @@
+.chipsets:
+true tru_1
+input in_1
+true in_01
+output out_02
+true in_03
+output out_04
+true in_05
+output out_06
+output out_08
+true in_09
+output out_10
+false in_11
+output out_12
+false in_13
+4069 gate
+
+.links:
+in_01:1 gate:1
+out_02:1 gate:2
+in_03:1 gate:3
+out_04:1 gate:4
+in_05:1 gate:5
+out_06:1 gate:6
+out_08:1 gate:8
+in_09:1 gate:9
+out_10:1 gate:10
+in_11:1 gate:11
+out_12:1 gate:12
+in_13:1 gate:13

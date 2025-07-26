@@ -1,0 +1,8 @@
+input enable
+input read
+input addr_00
+
+.links:
+enable:1 rom:18
+read:1 rom:20
+addr_00:1 rom:8

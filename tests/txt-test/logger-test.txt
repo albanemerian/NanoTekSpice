@@ -1,0 +1,137 @@
+# Set 'E' (69 -> 01000101)
+in_001=1
+in_002=0
+in_004=1
+in_008=0
+in_016=0
+in_032=0
+in_064=1
+in_128=0
+inhibit=0
+clock=0
+S
+clock=1  # Rising edge logs 'E'
+S
+
+# Set 'p' (112 -> 01110000)
+in_001=0
+in_002=0
+in_004=0
+in_008=0
+in_016=1
+in_032=1
+in_064=1
+in_128=0
+clock=0
+S
+clock=1  # Logs 'p'
+S
+
+# Set '1' (49 -> 00110001)
+in_001=1
+in_002=0
+in_004=0
+in_008=0
+in_016=1
+in_032=1
+in_064=0
+in_128=0
+clock=0
+S
+clock=1  # Logs '1'
+S
+
+# Set 't' (116 -> 01110100)
+in_001=0
+in_002=0
+in_004=1
+in_008=0
+in_016=1
+in_032=1
+in_064=1
+in_128=0
+clock=0
+S
+clock=1  # Logs 't'
+S
+
+# Set '3' (51 -> 00110011)
+in_001=1
+in_002=1
+in_004=0
+in_008=0
+in_016=1
+in_032=1
+in_064=0
+in_128=0
+clock=0
+S
+clock=1  # Logs '3'
+S
+
+# Set 'c' (99 -> 01100011)
+in_001=1
+in_002=1
+in_004=0
+in_008=0
+in_016=0
+in_032=1
+in_064=1
+in_128=0
+clock=0
+S
+clock=1  # Logs 'c'
+S
+
+# Set 'h' (104 -> 01101000)
+in_001=0
+in_002=0
+in_004=0
+in_008=1
+in_016=0
+in_032=1
+in_064=1
+in_128=0
+clock=0
+S
+clock=1  # Logs 'h'
+S
+
+# Set '!' (33 -> 00100001)
+in_001=1
+in_002=0
+in_004=0
+in_008=0
+in_016=0
+in_032=1
+in_064=0
+in_128=0
+clock=0
+S
+clock=1  # Logs '!'
+S
+
+# Now '!' is prepared again, but should NOT be written
+in_001=1
+in_002=0
+in_004=0
+in_008=0
+in_016=0
+in_032=1
+in_064=0
+in_128=0
+clock=0
+S
+
+# **Prevent Logging by One of These:**
+# OPTION 1: Don't raise the clock
+# (We stop here, so no rising edge occurs)
+
+# OPTION 2: Set inhibit=1 before raising the clock
+inhibit=1
+clock=1  # Even if clock rises, inhibit prevents logging
+S
+
+# Display log file
+D
+# expected output 'Epit3ch!'

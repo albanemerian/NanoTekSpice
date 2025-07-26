@@ -1,0 +1,11 @@
+.chipsets:
+input in_a
+input in_b
+input in_c
+output out
+invalid type
+
+.links:
+in_a:1 not1:1
+not1:2 not2:1
+not2:2 or:1

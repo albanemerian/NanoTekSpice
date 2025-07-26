@@ -1,0 +1,103 @@
+<student>                             | <expected>
+  out_00: 0						      |	  out_00: 1
+  out_05: 0						      |	  out_05: 1
+  out_10: 0						      |	  out_10: 1
+  out_15: 0						      |	  out_15: 1
+  out_15: 0						      |	  out_15: 1
+  out_00: 0						      |	  out_00: U
+  out_01: 0						      |	  out_01: U
+  out_02: 0						      |	  out_02: U
+...
+'
+
+15 - 4-bits Adder (4008)
+keyboard_arrow_right
+
+Test failure: The output must match the regular expression '^OK', but it was '
+ <student>                                                    | <expected>
+  out_c: 1						      |	  out_c: 0
+  out_0: 0						      |	  out_0: 1
+  out_2: 1						      |	  out_2: 0
+  out_3: 1						      |	  out_3: 0
+  out_0: 1						      |	  out_0: 0
+  out_1: 1						      |	  out_1: 0
+  out_2: 1						      |	  out_2: 0
+  out_3: 0						      |	  out_3: 1
+...
+'
+
+16 - Decade Counter (4040)
+keyboard_arrow_right
+
+Test failure: The output must match the regular expression '^OK', but it was 'Invalid exit status: 84 (expected 0)'
+
+17 - Johnson (4017)
+keyboard_arrow_right
+
+Test failure: The output must match the regular expression '^OK', but it was 'Invalid exit status: 84 (expected 0)'
+
+18 - 8-bits Shift Register (4094)
+keyboard_arrow_right
+
+Test failure: The output must match the regular expression '^OK', but it was '
+ <student>                                                    | <expected>
+  out_0: U						      |	  out_0: 1
+  out_1: U						      |	  out_1: 0
+  out_2: U						      |	  out_2: 1
+  out_3: U						      |	  out_3: 0
+  out_4: U						      |	  out_4: 1
+  out_5: U						      |	  out_5: 1
+  out_6: U						      |	  out_6: 0
+  out_7: U						      |	  out_7: 0
+...
+'
+
+19 - Flip-flop (4013)
+keyboard_arrow_right
+
+Test failure: The output must match the regular expression '^OK', but it was '
+ <student>                                                    | <expected>
+  out_2_q: 0						      |	  out_2_q: 1
+  out_2_qb: 1						      |	  out_2_qb: 0
+  out_1_q: 0						      |	  out_1_q: 1
+  out_1_qb: 1						      |	  out_1_qb: 0
+  out_1_q: 0						      |	  out_1_q: 1
+  out_1_qb: 1						      |	  out_1_qb: 0
+  out_1_q: 1						      |	  out_1_q: 0
+  out_1_qb: 0						      |	  out_1_qb: 1
+...
+'
+
+20 - 8 Channel Data Selector (4512)
+keyboard_arrow_right
+
+Test failure: The output must match the regular expression '^OK', but it was 'Invalid exit status: 84 (expected 0)'
+
+21 - RAM (4801)
+keyboard_arrow_right
+
+Test failure: The output must match the regular expression '^OK', but it was '
+ <student>                                                    | <expected>
+  out_0: U						      |	  out_0: 1
+  out_1: U						      |	  out_1: 1
+  out_2: U						      |	  out_2: 0
+  out_3: U						      |	  out_3: 0
+  out_4: U						      |	  out_4: 1
+  out_5: U						      |	  out_5: 1
+  out_6: U						      |	  out_6: 0
+  out_7: U						      |	  out_7: 0
+...
+'
+
+22 - ROM (2716)
+keyboard_arrow_right
+
+Test failure: The output must match the regular expression '^OK', but it was 'Invalid exit status: 84 (expected 0)'
+
+23 - Logger (logger)
+keyboard_arrow_right
+
+Test failure: The output must match the regular expression '^OK', but it was '0a1
+> Ep1t3ch!
+\ No newline at end of file
+'

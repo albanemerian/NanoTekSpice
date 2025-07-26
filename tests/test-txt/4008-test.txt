@@ -1,0 +1,127 @@
+in_a1=U
+in_a2=U
+in_a3=U
+in_a4=U
+in_b1=U
+in_b2=U
+in_b3=U
+in_b4=U
+in_c=U
+S
+D
+
+in_a1=0
+in_a2=0
+in_a3=0
+in_a4=0
+in_b1=0
+in_b2=0
+in_b3=0
+in_b4=0
+in_c=0
+S
+D
+
+in_a1=1
+in_a2=0
+in_a3=0
+in_a4=0
+in_b1=1
+in_b2=0
+in_b3=0
+in_b4=0
+in_c=0
+S
+D
+
+in_a1=1
+in_a2=1
+in_a3=0
+in_a4=0
+in_b1=1
+in_b2=1
+in_b3=0
+in_b4=0
+in_c=0
+S
+D
+
+in_a1=1
+in_a2=1
+in_a3=1
+in_a4=0
+in_b1=0
+in_b2=0
+in_b3=0
+in_b4=1
+in_c=0
+S
+D
+
+in_a1=1
+in_a2=1
+in_a3=1
+in_a4=0
+in_b1=0
+in_b2=0
+in_b3=0
+in_b4=1
+in_c=1
+S
+D
+
+in_a1=1
+in_a2=1
+in_a3=1
+in_a4=1
+in_b1=0
+in_b2=0
+in_b3=0
+in_b4=1
+in_c=0
+S
+D
+
+in_a1=1
+in_a2=1
+in_a3=1
+in_a4=1
+in_b1=1
+in_b2=1
+in_b3=1
+in_b4=1
+in_c=1
+S
+D
+
+in_a1=U
+in_a2=1
+in_a3=0
+in_a4=U
+in_b1=U
+in_b2=0
+in_b3=U
+in_b4=1
+in_c=0
+S
+D
+
+
+#exptected output :
+# tick: 9
+#input(s):
+#  in_a1: U
+#  in_a2: 1
+#  in_a3: 0
+#  in_a4: U
+#  in_b1: U
+#  in_b2: 0
+#  in_b3: U
+#  in_b4: 1
+#  in_c: 0
+#output(s):
+#  out_0: U
+#  out_1: U
+#  out_2: U
+#  out_3: U
+#  out_c: U

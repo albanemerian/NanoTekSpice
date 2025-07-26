@@ -1,0 +1,80 @@
+# Test sequence for 4-bit Decoder (4514)
+
+# Initial state: All inputs are 0
+# Expected output: out_00 should be 1, all others should be 0
+in_0=0
+in_1=0
+in_2=0
+in_3=0
+strobe=1
+inhibit=0
+simulate
+display
+
+# Test: Binary input 0001 (Should activate out_01)
+in_0=1
+in_1=0
+in_2=0
+in_3=0
+simulate
+display
+
+# Test: Binary input 0010 (Should activate out_02)
+in_0=0
+in_1=1
+in_2=0
+in_3=0
+simulate
+display
+
+# Test: Binary input 0011 (Should activate out_03)
+in_0=1
+in_1=1
+in_2=0
+in_3=0
+simulate
+display
+
+# Test: Binary input 0100 (Should activate out_04)
+in_0=0
+in_1=0
+in_2=1
+in_3=0
+simulate
+display
+
+# Test: Binary input 0111 (Should activate out_07)
+in_0=1
+in_1=1
+in_2=1
+in_3=0
+simulate
+display
+
+# Test: Binary input 1111 (Should activate out_15)
+in_0=1
+in_1=1
+in_2=1
+in_3=1
+simulate
+display
+
+# Test: Strobe LOW (Should deactivate all outputs)
+strobe=0
+simulate
+display
+
+# Test: Strobe HIGH (Should activate last selected output)
+strobe=1
+simulate
+display
+
+# Test: Inhibit HIGH (Should deactivate all outputs)
+inhibit=1
+simulate
+display
+
+# Reset: Inhibit LOW (Should restore correct output)
+inhibit=0
+simulate
+display
