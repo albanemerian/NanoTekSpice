@@ -17,3 +17,16 @@ COMMIT NORM
 All commits must be understandable according to the modification brought.
 A Github Project is linked to this repository, follow tasks in order to complete NanoTekSpice (don't forget to convert your draft to issues).
 For each issues, create a branch to achieve it.
+
+## Note 
+| Categorie                        | Percentage | Number| Crash |
+|----------------------------------|------------|-------|-------|
+| 1 - Basic components             | 100%       | 4/4   | x     |
+| 2 - Elementary components        | 100%       | 4/4   | x     |
+| 3 - Gate components              | 100%       | 6/6   | x     |
+| 4 - Advanced components          | 40%        | 4/10  | x     |
+| 5 - Advanced tests               | 77.8%      | 7/9   | x     |
+| 6 - Parsing                      | 100%       | 15/15 | x     |
+| 7 - Rigor                        | 100%       | 2/2   | x     |
+|----------------------------------|------------|-------|-------|
+| Total                            | 84%        | x     | x     |
